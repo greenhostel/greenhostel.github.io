@@ -5,3 +5,4 @@ permalink: /blog/:year/:month/:day/:title
 
 contacts:
   phone: +380685006977
+theme: jekyll-theme-merlot
