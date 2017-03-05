@@ -7,7 +7,7 @@
 
             <!-- item -->
             {% for room in site.data.rooms.list %}
-            <div class="col-md-6" >
+            <div class="col-md-6 {% cycle '', 'col-md-push-6' %}" >
                 <div class="reg_single_carousel reg_rooms_carousel reg_wht_txt">
                     {% for image in room.images %}
                     <div class="reg_room_block reg_image_bck" data-image="/images/rooms/{{image.url}}">
@@ -17,11 +17,11 @@
                     {% endfor %}
                 </div>
             </div>
-            <div class="col-md-6 reg_image_bck" data-color="#fff">
+            <div class="col-md-6 reg_image_bck {% cycle '', 'col-md-pull-6' %}" data-color="#fff">
                 <div class="reg_simple_block text-left">
                     <h2>{{room.title}}
-                        <a href="#reg_page" class="reg_go" style="position: absolute; top:0; right: 0; margin-right: 50px">
-                            <i class="ti ti-tag" style="top:0"></i><b>Резерв.</b>
+                        <a href="#reg_page" class="reg_go">
+                            <i class="ti ti-tag"></i><b>Резерв.</b>
                         </a>
                     </h2>
                     <h4>{{room.description}}</h4>
