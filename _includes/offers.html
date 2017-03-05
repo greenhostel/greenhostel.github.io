@@ -1,0 +1,34 @@
+<!-- section -->
+<section class="reg_section" id="offers">
+    <div class="container text-center">
+        <h2>{{ site.data.offers.title }}</h2><br>
+
+        <div class="row">
+
+            <!-- item -->
+            {% for offer in site.data.offers.list %}
+            <div class="col-md-4 reg_special_offers_item">
+                <div class="reg_special_offers reg_image_bck reg_wht_txt text-left" data-color="#292929">
+                    <div class="reg_special_offers_best">{{offer.haslo}}</div>
+                    <h3>{{offer.title}}</h3>
+                    <h4>{{offer.description}}</h4>
+                    <ul>
+                        {% for option in offer.options %}
+                        <li>{{option}}</li>
+                        {% endfor %}
+                    </ul>
+                    <span class="btn">Більше інформації та Резервування</span>
+                    <a href="#" class="reg_room_block reg_image_bck" data-image="/images/{{offer.image}}">
+                        <b class="btn">Більше та Резервування</b>
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+        <!-- row end -->
+
+    </div>
+    <!-- container end -->
+</section>
+<!-- section end -->
