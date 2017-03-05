@@ -1,6 +1,6 @@
 title: Кімнати і ціни
 
-rooms:
+list:
   -
     title: Звичайна кімната
     price: 250
