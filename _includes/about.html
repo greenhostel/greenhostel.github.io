@@ -1,0 +1,36 @@
+<!-- section -->
+<section class="reg_section" id="about">
+    <div class="container text-center">
+        <h2>{{ site.data.about.title }}</h2><br>
+
+        <div class="row reg_auto_height">
+
+            <!-- col -->
+            <div class="col-md-6 reg_image_bck reg_wht_txt" data-image="http://placehold.it/1000x1000">
+                <div class="reg_over" data-color="#333" data-opacity="0.8"></div>
+                <div class="reg_block_center">
+                    <img src="/images/about.png">
+                </div>
+            </div>
+            <!-- cole end -->
+
+            <!-- col -->
+            <div class="col-md-6 reg_image_bck" data-color="#f2f2f2">
+                <div class="reg_simple_block text-left">
+                    <h2>{{ site.data.about.context.title.line1 }}</h2>
+                    <h3>{{ site.data.about.context.title.line2 }}</h3>
+                    {% for p in site.data.about.context.text.rows %>
+                    <p>{{ p }}</p>
+                    {% endfor %}
+                    <h3>{{ site.data.about.context.text.signature.title }}</h3>
+                    <p>{{ site.data.about.context.text.signature.description }}</p>
+                </div>
+            </div>
+            <!-- cole end -->
+        </div>
+        <!-- row end -->
+
+    </div>
+    <!-- container end -->
+</section>
+<!-- section end -->
