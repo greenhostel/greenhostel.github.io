@@ -2,33 +2,33 @@ name: Хостел.
 
 items:
   -
+    link: #home
+    title: Головна
+
+  -
     link: #about
-    title: About
+    title: Про нас
 
   -
     link: #rooms
-    title: Rooms & Prices
-
-  -
-    link: #reviews
-    title: Reviews
+    title: Кімнати & Ціни
 
   -
     link: #services
-    title: Services
+    title: Додаткові Сервіси
 
+  -
+    link: #social
+    title: Ми в соцмережах
   -
     link: #gallery
-    title: Gallery
-
-  -
-    link: #instagram
-    title: Instagram
-
-  -
-    link: #team
-    title: Team
+    title: Галерея
 
   -
     link: #offers
-    title: Special Offers
+    title: Спеціальні пропозиції
+
+  -
+    link: #contacts
+    title: Контакти
+
