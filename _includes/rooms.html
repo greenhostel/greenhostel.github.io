@@ -7,16 +7,7 @@
 
             <!-- item -->
             {% for room in site.data.rooms %}
-            <div class="col-md-6" >
-                <div class="reg_single_carousel reg_rooms_carousel reg_wht_txt">
-                    {% for image in room.images %}
-                    <div class="reg_room_block reg_image_bck" data-image="/images/rooms/{{image.url}}">
-                        <!-- vertical text -->
-                        <div class="reg_slider_copyright">{{image.title}}</div>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
+
             <div class="col-md-6 reg_image_bck" data-color="#fff">
                 <div class="reg_simple_block text-left">
                     <h2>{{room.title}} <a href="#reg_page" class="reg_go"><i class="ti ti-tag"></i><b>Зарезервувати</b></a></h2>
