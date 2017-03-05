@@ -15,7 +15,7 @@ items:
 
   -
     link: #services
-    title: Додаткові Сервіси
+    title: Сервіси
 
   -
     link: #social
@@ -26,7 +26,7 @@ items:
 
   -
     link: #offers
-    title: Спеціальні пропозиції
+    title: Спецпропозиції
 
   -
     link: #contacts
