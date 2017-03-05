@@ -1,0 +1,34 @@
+name: Хостел
+
+items:
+  -
+    link: #about
+    title: About
+
+  -
+    link: #rooms
+    title: Rooms & Prices
+
+  -
+    link: #reviews
+    title: Reviews
+
+  -
+    link: #services
+    title: Services
+
+  -
+    link: #gallery
+    title: Gallery
+
+  -
+    link: #instagram
+    title: Instagram
+
+  -
+    link: #team
+    title: Team
+
+  -
+    link: #offers
+    title: Special Offers

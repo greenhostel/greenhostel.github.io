@@ -3,7 +3,7 @@
     <div class="reg_menu_btn">
         <span></span><span></span><span></span>
     </div>
-    <b>{{site.data.params.name}}</b>
+    <b>{{ site.data.menu.name }}.</b>
 </div>
 <!-- Menu Btn End-->
 
@@ -18,21 +18,22 @@
     <div class="reg_menu_cont_txt">
 
         <!-- Logo + Close Btn -->
-        <div class="reg_menu_cont_logo"><div class="reg_menu_cont_logo_close"><span></span><span></span></div>Regal.</div>
+        <div class="reg_menu_cont_logo">
+            <div class="reg_menu_cont_logo_close">
+                <span></span><span></span>
+            </div>{{ site.data.menu.name }}.</div>
         <ul>
-            <li><a href="#about"><span>About</span></a></li>
-            <li><a href="#rooms"><span>Rooms & Prices</span></a></li>
-            <li><a href="#reviews"><span>Reviews</span></a></li>
-            <li><a href="#services"><span>Services</span></a></li>
-            <li><a href="#gallery"><span>Gallery</span></a></li>
-            <li><a href="#instagram"><span>Instagram</span></a></li>
-            <li><a href="#team"><span>Team</span></a></li>
-            <li><a href="#offers"><span>Special Offers</span></a></li>
+            {% for item in site.data.menu.items %}
+            <li>
+                <a href="{{ item.link }}">
+                    <span>{{ item.title }}</span>
+                </a>
+            </li>
         </ul>
 
         <!-- Social Btns -->
         <div class="reg_menu_cont_social">
-            Follow Us
+            Підписатись
             <a href="#" class="ti ti-facebook"></a>
             <a href="#" class="ti ti-twitter"></a>
             <a href="#" class="ti ti-instagram"></a>
