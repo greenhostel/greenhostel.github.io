@@ -17,7 +17,7 @@ phone: +380685006977
 
 			<!-- Header Phone -->
 			<div class="reg_header_phone">
-				+{{ site.data.params.phone }}
+				<b>+{{ site.data.params.phone }}</b>
 			</div>
 			<!-- Header Phone End-->
 
@@ -49,55 +49,7 @@ phone: +380685006977
 		<div class="container">
 			{% include logo.html %}
 
-
-			<!-- Booking -->
-			<div id="reg_slider_review" data-0="@class:noactive" data-200="@class:active">
-				<div class="row">
-					<div class="col-md-3 col-sm-12 col-xs-12">
-                     <span class="reg_subtitle">
-                        <span class="reg_book_close"><span></span><span></span></span>
-                        Замовити
-                    </span>
-					</div>
-					<div class="col-md-9 col-sm-12 col-xs-12">
-						<div class="reg_slider_review_form">
-							<div class="row">
-
-								<!-- Form -->
-								<form class="reg_form" action="https://formspree.io/your@email.com" method="POST">
-									<div class="col-md-2 reg_book_item">
-										<input type="text" value="" class="form-control date_picker" name="arrival" required placeholder="Arrival">
-									</div>
-									<div class="col-md-2 reg_book_item">
-										<input type="text" value="" class="form-control date_picker" name="departure" required placeholder="Departure">
-									</div>
-									<div class="col-md-2 reg_book_item">
-										<input type="text" value="" class="form-control" name="name" required placeholder="Full Name">
-									</div>
-									<div class="col-md-2 reg_book_item">
-										<input type="text" value="" class="form-control" name="phone" required placeholder="Phone">
-									</div>
-									<div class="col-md-2 reg_book_item">
-										<select class="form-control" id="room" name="room">
-											<option>Mixed dorms</option>
-											<option>Girls-only dorms</option>
-											<option>Private rooms</option>
-										</select>
-									</div>
-									<div class="col-md-2 reg_book_item">
-										<input type="submit" class="btn btn-white submit" value="Send">
-									</div>
-								</form>
-								<!-- Form End -->
-							</div>
-							<!-- row end -->
-						</div>
-					</div>
-				</div>
-
-
-			</div>
-			<!-- booking end -->
+			{% include booking.html %}
 
 		</div>
 		<!-- container end -->
