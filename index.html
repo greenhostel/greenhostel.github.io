@@ -70,28 +70,10 @@ phone: +380685006977
 
 		{% include offers.html %}
 
-		<!-- section -->
-		<section class="reg_section reg_image_bck" data-color="#f2f2f2" id="map">
-			<div class="container text-center">
-				<h2>Find Us</h2><br>
-				<h3 class="reg_subtitle">On the Map</h3>
-
-				<!-- google map -->
-				<div class="reg_map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38852.53604898047!2d13.352403003182175!3d52.51020916491075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x042120465b5e3b70!2sBerlin%2C+Germany!5e0!3m2!1sen!2sru!4v1465312283068" allowfullscreen></iframe>
-				</div>
-				<!-- google map end -->
-
-			</div>
-			<!-- container end -->
-		</section>
-		<!-- section end -->
+		{% include map.html %}
 
 	</section>
 	<!-- content end -->
-
-
-
 
 
 	<!-- Footer -->
@@ -100,32 +82,29 @@ phone: +380685006977
 
 			<!-- help -->
 			<div id="reg_footer_block" data-0="@class:noactive" data-300-end="@class:active">
-				<i class="ti flaticon-reception-bell"></i><span class="reg_subtitle">Need Help. <b>+44 (0) 20 4455 6677</b></span>
-				<p>If you hate forms (and who doesn’t?) or if you want to talk to a human being (and who doesn’t?), then you can ring us on the following number.</p>
+				<i class="ti flaticon-reception-bell"></i><span class="reg_subtitle">Need Help. <b>+{{site.data.params.phome}}</b></span>
+				<p>Якщо ви маєте запитання иа, або якщо ви хочете поговорити з людиною - зателефонуйте нам за цим номером.</p>
 			</div>
 			<!-- help end -->
 
 			<div class="row reg_wht_txt">
 				<div class="col-md-5 col-sm-3">
-					<div class="reg_subtitle">Regal Hostels</div>
-					<h3>Berlin-London</h3>
-					<p>© 2016 Regal</p>
+					<div class="reg_subtitle">{{site.data.params.name}}</div>
+					<h3>Львів</h3>
+					<p>© 2017</p>
 				</div>
 				<div class="col-md-2 col-sm-3">
-					<h4>Address</h4>
-					<p>68 Cardamon Place, Melbourne Vic 3000<br>
-						Berlin</p>
+					<h4>Адреса</h4>
+					<p>{{site.data.params.address}}</p>
 				</div>
 				<div class="col-md-3 col-sm-3">
-					<h4>Contact</h4>
-					<p><a href="mailto:contact@regalhostels.com">contact@regalhostels.com</a><br>
-						T / +44 (0) 20 4455 6677<br>
-						<a href="mailto:jobs@regalhostels.com">jobs@regalhostels.com</a>
-
+					<h4>Контакти</h4>
+					<p><a href="mailto:{{site.data.params.email}}">{{site.data.params.email}}</a><br>
+						T / +{{site.data.params.phone}}<br>
 					</p>
 				</div>
 				<div class="col-md-2 col-sm-3">
-					<h4>Follow Us</h4>
+					<h4>Приєднуйся</h4>
 					<ul>
 						<li><a href="#">Behance</a></li>
 						<li><a href="#">Facebook</a></li>
