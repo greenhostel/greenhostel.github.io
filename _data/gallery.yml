@@ -11,5 +11,5 @@ albums:
   - title: Кімнати
     list:
       - room1.png
-       - room2.png
-       - kitchen.png
+      - room2.png
+      - kitchen.png
