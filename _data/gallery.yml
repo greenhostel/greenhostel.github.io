@@ -1,0 +1,15 @@
+title: Галерея
+
+albums:
+  -
+    title: Соціальний простір
+    list:
+      - room1.png
+      - room2.png
+      - kitchen.png
+
+  - title: Кімнати
+    list:
+      - room1.png
+       - room2.png
+       - kitchen.png

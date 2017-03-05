@@ -1,0 +1,29 @@
+<!-- section -->
+<section class="reg_section reg_image_bck" data-color="#f2f2f2" id="gallery">
+    <div class="container text-center">
+        <h2>{{ site.data.gallery.title }}</h2><br>
+
+        <div class="row reg_gallery reg_auto_height reg_wht_txt">
+
+            <!-- item -->
+            {% for album in site.data.gallery.albums %}
+            <div class="col-md-6" >
+                <div class="reg_gallery_carousel_txt reg_over" data-color="#292929" data-opacity="0.8">
+                    <h2>{{ album.title }}</h2>
+                </div>
+                <div class="reg_single_carousel reg_gallery_carousel reg_rooms_carousel">
+                    {% for image in album.list %}
+                    <div class="reg_room_block reg_gallery_item reg_image_bck" data-image="/images/rooms/{{image}}">
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+        <!-- row end -->
+
+    </div>
+    <!-- container end -->
+</section>
+<!-- section end -->
