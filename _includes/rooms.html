@@ -19,7 +19,11 @@
             </div>
             <div class="col-md-6 reg_image_bck" data-color="#fff">
                 <div class="reg_simple_block text-left">
-                    <h2>{{room.title}} <a href="#reg_page" class="reg_go"><i class="ti ti-tag"></i><b>Зарезервувати</b></a></h2>
+                    <h2>{{room.title}}
+                        <a href="#reg_page" class="reg_go" style="position: absolute; top:0; right: 0; margin-right: 50px">
+                            <i class="ti ti-tag" style="top:0"></i><b>Резерв.</b>
+                        </a>
+                    </h2>
                     <h4>{{room.description}}</h4>
                     <ul>
                         {% for option in room.options %}
