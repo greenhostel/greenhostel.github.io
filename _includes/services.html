@@ -1,0 +1,32 @@
+<!-- section -->
+<section class="reg_section" id="services">
+    <div class="container text-center">
+        <h2>Services</h2><br>
+
+        <!-- icon boxes -->
+        <div class="reg_icon_boxes row">
+
+            <!-- animation -->
+            <div data-animation="animation_blocks" data-bottom="@class:noactive" data--100-bottom="@class:active">
+
+                <!-- item -->
+                {% for service in site.data.services.list %}
+                <div class="reg_icon_box col-md-4 col-sm-6">
+                    <i class="ti {{service.icon}}"></i>
+                    <div class="reg_icon_box_content">
+                        <h4>{{service.title}}</h4>
+                        {{service.description}}
+                    </div>
+                </div>
+                {% endfor %}
+
+            </div>
+            <!-- anmation end -->
+
+        </div>
+        <!-- icon boxes end -->
+
+    </div>
+    <!-- container end -->
+</section>
+<!-- section end -->

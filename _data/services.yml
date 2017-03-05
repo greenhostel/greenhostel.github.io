@@ -1,0 +1,32 @@
+title: Сервіси
+
+list:
+  -
+    title: <b>Central</b> Location
+    description: Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+    icon: flaticon-hotel
+
+  -
+    title: <b>Familiar</b> & Homely
+    description: Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+    icon: flaticon-family-room
+
+  -
+    title: <b>Super</b> Social
+    description: Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+    icon: flaticon-bar
+
+  -
+    title: <b>Totally</b> Equipped
+    description: Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+    icon: flaticon-laundry-service
+
+  -
+    title: <b>Local</b> Knowledge
+    description: Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+    icon: flaticon-hotel-staff
+
+  -
+    title: <b>Friendly</b>Staff
+    description: Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+    icon: flaticon-wifi-room
