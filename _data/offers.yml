@@ -2,31 +2,24 @@ title: Спеціальні пропозиції
 
 list:
   -
-    title: Put A Pound Back In Your Pocket
-    haslo: <b>Найкраща</b> ціна
-    description: 3 nights in LDN from just $60
+    title: Трансферт до залізничного вокзалу чи аеропорту
+    haslo: <b>Зручно</b> та <b>швидко</b>
+    description: За невелику доплату наш водій доставить Вас до будь-якого вокзалу чи аеропорту.
     image: logo_background.png
     options:
-      - Кожна опція в окремому рядку
-      - макс 4 рядки
-      - Якщо опція займає більше рядків, то зменшується загальні кількість рядків
 
   -
-    title: Bands and live performances
+    title: За умови проживання більше 3-х днів ми надаємо спеціальну знижку
     haslo: <b>Найкраща</b> ціна
-    description: 3 nights in LDN from just $60
+    description:
     image: logo_background.png
     options:
-      - Кожна опція в окремому рядку
-      - макс 4 рядки
-      - Якщо опція займає більше рядків, то зменшується загальні кількість рядків
+      - більше 3-х днів - 20 відсотків
+      - більше місяця - 30 відсотків
 
   -
-    title: Big Night Out pub crawl
+    title: Фітнес – центр
     haslo: <b>Найкраща</b> ціна
-    description: 3 nights in LDN from just $60
+    description: Клієнти «Хостелу на Зеленій» мають можливість займатися у фітнес-центрі всього за половину вартості.
     image: logo_background.png
     options:
-      - Кожна опція в окремому рядку
-      - макс 4 рядки
-      - Якщо опція займає більше рядків, то зменшується загальні кількість рядків
