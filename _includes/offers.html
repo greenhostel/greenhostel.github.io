@@ -8,7 +8,7 @@
             <!-- item -->
             {% for offer in site.data.offers.list %}
             <div class="col-md-4 reg_special_offers_item">
-                <div class="reg_special_offers reg_image_bck reg_wht_txt text-left" data-color="#292929" style="height: 275px">
+                <div class="reg_special_offers reg_image_bck reg_wht_txt text-left" data-color="#292929" style="height: 400px">
                     <div class="reg_special_offers_best">{{offer.haslo}}</div>
                     <h3>{{offer.title}}</h3>
                     <h4>{{offer.description}}</h4>
@@ -17,7 +17,7 @@
                         <li>{{option}}</li>
                         {% endfor %}
                     </ul>
-                    <span class="btn">Більше взнати та Резервувати</span>
+                    <span class="btn" style="position: relative; bottom: 20px">Більше взнати та Резервувати</span>
                     <a href="#reg_page" class="reg_room_block reg_image_bck reg_go" data-image="/images/{{offer.image}}">
                         <b class="btn">Більше взнати та Резервувати</b>
                     </a>
